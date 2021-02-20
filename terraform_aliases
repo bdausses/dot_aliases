@@ -1,0 +1,28 @@
+# Terraform Aliases
+
+# terraform apply
+alias tfa='terraform apply -auto-approve'
+
+# terraform destroy
+alias tfd='terraform destroy -auto-approve'
+
+# terraform init
+alias tfi='terraform init'
+
+# terraform output
+alias tfo='terraform output'
+
+# terraform plan
+alias tfp='terraform plan'
+
+# tfswitch
+alias tfs='tfswitch'
+
+# terraform version
+alias tfv='terraform --version'
+
+# terraform workspace
+alias tfw='terraform workspace'
+
+# Recreate
+alias tfr='terraform destroy -auto-approve && terraform apply -auto-approve'

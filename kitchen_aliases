@@ -1,0 +1,22 @@
+# Kitchen Aliases
+
+# kitchen converge [INSTANCE|REGEXP|all]          # Change instance state to converge. Use a provisioner to configure one or more instances
+alias kc='kitchen converge'
+
+# kitchen create [INSTANCE|REGEXP|all]            # Change instance state to created.
+alias kcreate='kitchen create'
+
+# kitchen destroy [INSTANCE|REGEXP|all]           # Change instance state to destroy. Delete all information for one or more instances
+alias kd='kitchen destroy'
+
+# kitchen list [INSTANCE|REGEXP|all]              # Lists one or more instances
+alias kl='kitchen list'
+
+# kitchen login INSTANCE|REGEXP                   # Log in to one instance
+alias klogin='kitchen login'
+
+# kitchen test [INSTANCE|REGEXP|all]              # Test (destroy, create, converge, setup, verify and destroy) one or more instances
+alias kt='kitchen test'
+
+# kitchen verify [INSTANCE|REGEXP|all]            # Change instance state to verify. Run automated tests on one or more instances
+alias kv='kitchen verify'
